@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+}
+
+header {
+  display: flex;
+  height: 92px;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 1, 1, 1;
+}
+
+.logo {
+  margin-left: 70px;
+  width: 90px;
+  margin-right: 50px;
+}
+
+.links {
+  display: none;
+}
+
+.SignIn {
+  margin-right: 70px;
+}
+
+.SignIn a {
+  display: flex;
+  background-color: #00baf2;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+  padding: 1px 2px 2px 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 60px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.SignIn p {
+  margin-right: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  height: 28px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.KYC {
+  font-weight: 600;
+}
+
+.subtitle a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  margin-top: 20px;
+  height: auto;
+  background-color: white;
+  flex-direction: column;
+}
+
+.mainlogo {
+  border-radius: 15px;
+  width: 70px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.116);
+}
+
+.content {
+  margin: 20px;
+}
+
+.content h1 {
+  width: 340px;
+  font-size: 35px;
+  line-height: 1.2;
+}
+
+.content p {
+  width: 330px;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+.content div {
+  display: flex;
+  height: 40px;
+  background-color: black;
+  margin-top: 20px;
+  align-items: center;
+  border-radius: 30px;
+  width: 250px;
+  border: solid black;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.content div p {
+  width: auto;
+  color: white;
+  font-size: 15px;
+  line-height: 0px;
+  margin-top: 0;
+  margin-left: 28px;
+  font-weight: 400;
+  margin-right: 7px;
+}
+
+.content div a img {
+  width: 19px;
+  filter: invert(1);
+}
+
+.play {
+  height: 24px;
+  margin: 3px;
+}
+
+.content div:hover {
+  border: solid rgb(255, 255, 255);
+  border-width: 1px;
+  filter: invert(1);
+}
+
+.image {
+  display: flex;
+  justify-content: flex-end;
+  margin: 25px 0px;
+}
+
+.image img {
+  width: 77%;
+  height: 90%;
+}
+
+.recharge {
+  background-color: #00baf2;
+  color: white;
+  height: auto;
+  padding-top: 1%;
+  justify-content: center;
+}
+
+.recharge h1 {
+  margin: 3%;
+  font-size: 1.9em;
+}
+
+.bills {
+  display: flex;
+  justify-content: space-around;
+  margin: 3% 3% 0% 3%;
+  flex-wrap: wrap;
+}
+
+.bills div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100px;
+  height: 150px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  font-weight: 500;
+}
+
+.bills div a {
+  text-decoration: none;
+  color: white;
+}
+
+.bills div a img {
+  width: 50px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.bills div a p {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.bills div:hover {
+  background-color: #00a2d48f;
+}
+
+.ticket {
+  background-color: #0f4a8a;
+  color: white;
+  height: auto;
+  padding-top: 1%;
+}
+
+.ticket h1 {
+  margin: 3%;
+  font-size: 1.9em;
+}
+
+.tickets {
+  display: flex;
+  justify-content: space-around;
+  margin: 3% 3% 0% 3%;
+  flex-wrap: wrap;
+}
+
+.tickets div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100px;
+  height: 150px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  font-weight: 550;
+}
+
+.tickets div a {
+  text-decoration: none;
+  color: white;
+}
+
+.tickets div a img {
+  width: 50px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.tickets div a p {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.tickets div:hover {
+  background-color: rgb(0, 66, 128);
+}
